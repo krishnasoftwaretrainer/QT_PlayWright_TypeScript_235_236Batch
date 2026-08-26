@@ -1,0 +1,180 @@
+Playwright New Batch:235 & 236
+
+Role:Software Test Engineer(STE)
+----------------------
+To test the developers developed app,Quality or Defect.
+
+Goal:To delivery Quality app to Clients or Customers or EndUsers. 
+
+1.Manual Testing:100%
+2.Automation Testing:30 to 40%
+
+To test the app by using automation tools. 
+
+Ex:Washing Clothes:100% 30%
+Reduce the Human Efforts
+
+Unit 
+Integration 
+System:End-To-End
+UAT:Alpha and Beta 
+
+Regression Testing:
+To convert manual testcases into automation script.
+
+ATLC:
+Requirement Analysis
+Test Scenarios and Test Cases
+Write Automation Script
+Run/Execute 
+Reports Analysis:
+
+BLC:
+
+Login Functionality:UN PWD:VU VP VU IVP 
+API:
+
+
+Web App Testing:Regression Testing
+Selenium Tool:4G Mobile
+PlayWright Tool:5G Mobile 6G Mobile
+100 JO:60% 40%
+
+PlayWright:Automation Testing Tool 
+Automation Script or PlayWright Script
+
+Prgramming Language Concepts:
+----------------------------
+Re-Use:I P M 
+Validations:for Array String datatype 
+Security:E EH 
+
+1.Development
+2.Automation Testing
+
+Automation Script=Programming Language Concepts+PlayWright Tool Concepts
+
+Programming Language:
+TypeScript[5G] or JavaScript[4G]
+
+Day - 1 Topics:
++What is Automation Testing
+-Advantages of Automation Testing
+-Limitations of Automation Testing
+-Difference between Manual & Automation Testing
+-Why Automation Testing is important
+-When to start Automation Testing
+-How to start Automation (Automation Testing Process)
+-Types of Automation Tools (Licensed Tools vs Open-Source Tools)
+-Why Playwright over Selenium & Cypress
+
+Day- 2 Topics:
++Introduction to Playwright
+-What is Playwright
+-Playwright Features
+-Playwright Architecture
+-Supported Browsers [Chromium, Firefox, WebKit]
+-Playwright vs Selenium
+-Installing Playwright
+-Execute Some Basic Playwright Scripts
+
+
+Cross Browser:Amazon:10TC
+Chrome:10TC Edge:10TC FireFox:10TC:3hrs
+
+Parallel Testing:1hrs
+
+Diff b/w Selenium and PlayWright:
+--------------------------
+Node.js Environment
+Programming Language:TypeScript/Java 
+Automation Tool:Playwright/Selenium
+Editor:VS-Code IDE/Eclipse IDE
+Browsers:Chromium[Chrome+Edge] FireFox WebKit (or) Chrome Edge FireFox
+
+Assertions:Compares the ER vs AR:Pass/Fail 
+Waiting or Waits
+Manual Wait:Selenium
+Automatic Waits:Playwright
+
+SwagLabs Login:VU VP:Run  
+
+Environments:
+Dev Environments
+QA Environments: www.qa.amazon.in
+UAT Environments
+Production Environments[CI] 
+
+npm install -g typescript
+npx tsx s3.ts
+npm --init
+
+CUI:Command USer Interface:DOS Unix  
+GUI:Graphical User Interface:Windows Mac Linux 
+
+Programming Language:
+----------------
+1.Software Developers:FrontEnd Development[Client-Side] +BackEnd[ServerSide] 
+
+2.Software Testing[Automation]:
+Selenium:Java 
+PlayWright:TypeScript
+
+
+Write Automation Script
+Run/Execute:Playwright
+Analysis Result:Pass/Fail
+
+LowLevel:Cobol Portran Pascal etc..
+HighLevel:C C++ Java Python .net JavaScript TypeScript Ruby etc...
+
+Procedure Oriented:C JavaScript
+
+Object Oriented:C++ Java TypeScript
+
+Re-Use:WORA 10:1:9 Inheritance 
+Readability:{} {} {} 
+Security:Access Specifiers:public private protected
+Encapsulation 
+
+WORA:
+Write Program:Source Code [Google Maps] 
+Compilation:Checking Errors + Executable Code[Run/Execute]
+
+Add.ts 
+Add.js 
+
+Add.java 
+Add.class 
+
+String a="Krishna"; String NO 
+
+Environment SetUp:
+----------------
+Node.js Environment
+Editor:VS-Code IDE/Eclipse IDE
+Programming Language:TypeScript/Java 
+----------------------
+Automation Tool:Playwright/Selenium
+Browsers:Chromium[Chrome+Edge] FireFox WebKit (or) Chrome Edge FireFox
+
+
+HeadLess
+Parallel
+All Installed Browsers 
+All Tests 
+
+Node.js Installation:
+https://nodejs.org/en/download/current
+
+C:\Users\HP>node --version
+v26.7.0
+C:\Users\HP>npm --version
+11.18.0
+C:\Users\HP>node -v
+v26.7.0
+C:\Users\HP>npm -v
+11.18.0
+
+Download and Install Visual Studio Code
+https://code.visualstudio.com/download?_exp_download=d53503e735
