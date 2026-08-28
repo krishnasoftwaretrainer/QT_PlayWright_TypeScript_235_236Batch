@@ -1,5 +1,5 @@
 Playwright New Batch:235 & 236
-
+==============================
 Role:Software Test Engineer(STE)
 ----------------------
 To test the developers developed app,Quality or Defect.
@@ -78,7 +78,6 @@ Day- 2 Topics:
 -Installing Playwright
 -Execute Some Basic Playwright Scripts
 
-
 Cross Browser:Amazon:10TC
 Chrome:10TC Edge:10TC FireFox:10TC:3hrs
 
@@ -120,7 +119,6 @@ Programming Language:
 Selenium:Java 
 PlayWright:TypeScript
 
-
 Write Automation Script
 Run/Execute:Playwright
 Analysis Result:Pass/Fail
@@ -158,7 +156,6 @@ Programming Language:TypeScript/Java
 Automation Tool:Playwright/Selenium
 Browsers:Chromium[Chrome+Edge] FireFox WebKit (or) Chrome Edge FireFox
 
-
 HeadLess
 Parallel
 All Installed Browsers 
@@ -178,3 +175,189 @@ C:\Users\HP>npm -v
 
 Download and Install Visual Studio Code
 https://code.visualstudio.com/download?_exp_download=d53503e735
+
+Day - 3 Topics:
++TypeScript Introduction
+-Introduction (History) to TypeScript
+-Why TypeScript for Automation Testing
+-TypeScript vs JavaScript
+-Installing Node.js
+-Installing TypeScript
+-Installing Visual Studio Code [ IDE Support]
+-Writing the First TypeScript Program
+-Compile and Execute a TypeScript Program
+-Compiling .ts to .js
+
+JavaScript vs TypeScript:
+---------------------
+Scripting Language[JS]:Browser[Refresh]
+Programming Language[TS]:Compilation,Execution
+
+.ts Compilation  vara let 
+.js Run OutPut
+
+SourceCode and ObjectCode
+
+.html[Tags]->URL->Browser
+.css[]
+.js[Scripting] 
+
+Syntax Based:
+
+Pre-Define:console.log(""); var let number
+
+User-Define: var number1=20;
+
+number
+c=ab; 
+
+Day – 4 and 5 Topics
++ TypeScript Basics
+-Variables in TypeScript
+-Data Types in TypeScript
+
+Variables and DataTypes:
+-----------------------
+Variable:Container:Hold/Store the different types of data.
+
+var a=10;
+Blocks:
+
+ATE:10 20 Memory
+Dev:
+
+Copilet:Variables and DataTypes in JS/TS:
+-------------------------------
+var a=10; //JS Dynamic
+a="QT"
+a=true
+a=33.45
+
+var a:number=10; //TS Static 
+a="QT" Error
+a=true
+
+Variables is an Container,Using to store different type's of values.
+Storage[Memory] Location names Variable
+10+20; 30 Values 
+
+Normal Variable:Hold the Single Value
+var htno1=101;
+var htno1=102;
+
+htno={101,102,103,104};
+
+a=10,b=20
+a+b; 30 Variables
+
+Memory Blocks:Name Index Address
+
+var username:string="standard_user";
+var password:string="secret_sauce";
+
+VU VP 
+VU IVP 
+IVU VP 
+IVU IVP 
+
+var username:string="standard_user1";
+var password:string="secret_sauce";
+
+standard_user1  secret_sauce
+standard_user1	invalidpass
+invaliduser		secret_sauce
+invaliduser		invalidpass
+---------------------
+username	password
+username	invalpass		
+invalidus	password
+invalidus	invalpass
+
+
+Variables are User-Defined:
+var 123=10;
+
+Rules for Variables [User-Defined]:
+--------------
+Alphabets Only[Lower/Upper]
+Don't Start with digits or SS[except $ _]
+Don't use any pre-define into user-define
+WhiteSpace are not allowed
+
+student_name 
+123 name123 boolean123  string var_222
+
+Variable Declaration and Initialization:
+-----------------------------
+var a;
+var a:number; Declaration
+a=30; //Initialization
+
+Print: a undefined 
+var b=20 Declaration and Initialization
+var b:number=20;
+
+Print:b 20
+var let const
+
+int a,b=20;
+Print:a+b 
+
+var let const
+Scope of Variable:
+------------------PM=CM+ZPTC
+Global:fun+block [PM]
+var let const: anywhere
+Global Scope means declare variables outside function and block.
+
+Functional: var Admin TL
+function fun1(){
+body of fun;
+}
+
+Block:Condition or loop [let,const] USer TE 
+if(true)
+{
+block level;
+}
+
+const[KeyWord] pi[Variable]:number[DataType]=3.14[Value];
+
+pi =2.314; 
+
+Re-Declaration
+Re-Initialization
+
+function fun(){
+var marks;
+}
+State[function]:CM var 
+Dist[Block]:let const 
+
+if()1
+{
+const pi=3.14
+pi=2.314; Error
+marks;
+}
+if()2
+{
+marks;
+}
+if()3
+{
+marks;
+}
+
+var:
+Re-Declaration is Possible
+Re-Initialization is Possible
+Before Declaration Using:false 
+Before Initialization usin:false 
+let:
+Re-Declaration is not Possible
+Re-Initialization is Possible
+
+const:
+Re-Declaration is not Possible
+Re-Initialization is not Possible
