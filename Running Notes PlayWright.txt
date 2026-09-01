@@ -361,3 +361,239 @@ Re-Initialization is Possible
 const:
 Re-Declaration is not Possible
 Re-Initialization is not Possible
+var:
+Re-Declaration is Possible
+Re-Initialization is Possible
+Before Declaration Using:false 
+Before Initialization usin:false 
+let:
+Re-Declaration is not Possible
+Re-Initialization is Possible
+
+const:
+Re-Declaration is not Possible
+Re-Initialization is not Possible
+
+var let const
+Global Functional Block
+
+Data Types in JS/TS:
+------------------
+A.Primitive DataTypes:
+Store and Use Single Values
+a=10;
+
+1.Number:324254 -5535 
+a.Plain Numbers:number
+b.Point Values:number:46.567
+c.Large Numbers:BigInt 
+
+Syntax:KeyWord variablename:datatype=value;
+const num1:number=22;
+
+2.String:
+Collection of Characters:
+''
+""
+``a=10,b=20
+a+b:30
+"Addition:"+(a+b)
+
+3.Boolean:True[+] False[-]
+Binary:1[True] 0[False]
+
+B.Non-Primitive DataTypes
+class 
+Objects 
+Arrays 
+functions
+
+
+22:data number
+
+
+Tokens in JS/TS:
+--------------
+1.KeyWords:Pre-define/Library/Built-in/Reserved
+var num1:number=22;
+
+Pre-Define
+User-Define
+
+Case-Sensitive:number Number let Let
+
+const let var string 
+
+2.Identifiers:User-Defined 
+a=10
+Rules: 
+var 123a:number=10;
+var @b:number=20;
+var let:number=a+b;
+
+function names Method Names VariableNames 
+classname objectname methodname I P DA E 
+class Calculator
+obj cal.Addition();
+obj cal duplication
+ 
+1.Basic Concepts:Common for all PL.
+
+2.OOPS Concepts:Re-Usability, Readability, Security AccessSpecifiers
+
+3.Literals:
+----------
+var a=22;
+var result=true; Boolean Literal/Value
+
+4.Constants:
+-----------
+Fixed Values 
+
+var a=22; Initialization a is Normal Variable
+
+a=33; Re-Initialization
+
+const passmarks=35;
+passmarks=25; Error
+
+const pi=3.14;
+
+Re-Use
+
+5.Variables and DataTypes
+
+Comments in JS/TS:
+----------------
+Non-Executable statements.
+
+1.Don't want to compile or execute the specific or multiple statements.
+
+2.Write normal statements in code/script
+
+ATE1:100LOS Re-Usable:Pre-define User-define  
+ATE2:
+
+A.Single-Line: //
+2.Multi Line: /*  */
+
+Sequentional Mode:Line-by-Line[Order]
+tsc:typescript compiler
+Checking or Identifing Errors 
+Excutes the Program
+
+.ts:Program/SourceCode/Script:User-Defined
+ObjectCode/ByteCode
+
+Binary Language:0 1
+
+Communication Problem
+
+Errors in JS/TS:
+---------------
+1.Manual:
+2.Automation:Compilers:tsc 
+
+English:Text[Alpha Digits SS][HUL] 2+3=5
+Binary:0 1 [MUL] 001->5
+
+a.Translation[]
+b.Checking the Errors[Compilation]
+c.Convert into executable code 
+d.output:5
+
+1.CompileTime:Syntax
+2.RunTime:Exceptions  5/0 RunTime
+3.Logical:Bugs 
+VE IVP:
+Excepted:EM
+Actual:EM 
+
+Operators in JS/TS:
+-----------------
+Symbol:Operations on Operands
+2+3:Addition 2,3 +
+
+Unary: ! -
+
+1.Arithmetic
+2.Relational or Comparison
+3.Logical
+4.Assignment
+5.Unary
+6.Ternary
+7.Bitwise
+8.Shift
+
+Arithmetic Operators:
+--------------
++ - * / %
+5/2=2
+5%2=1
+
+Operator Precedence or Priority:
+-----------------
++ - * / % BODMAS
+HP:* / %
+LP:+ -
+Input:number
+OutPut:number
+
+2.Relational Operators:
+-----------------------
+99  89  6 7 
+< 
+>
+<=
+>=
+==
+!=
+4>5:false
+5>4:true 
+
+Input:Number
+OutPut:Boolean
+
+20>=10:20>10 OR 20==10
+		True OR False:True  
+20<=10:20<10 or 20==10
+		false or false:false
+
+10>=10: 10>10 or 10==10
+		false or true:true
+		
+3.Logical Operators:
+---------------
+AND OR 
+Input:Boolean:true/false  UN PWD 
+OutPut:Boolean
+
+Truth Table:
+-----------
+Input1	Input2	AND(&&)	OR(||) 	NOT(!)
+----------------------------------------
+TRUE	TRUE	TRUE	TRUE	FALSE
+
+TRUE	FALSE	FALSE	TRUE
+
+FALSE	TRUE	FALSE	TRUE
+
+FALSE	FALSE	FALSE	FALSE	TRUE
+
+4.Assignment Operators:
+--------------------
+a=10; Valid
+
+10=a; Invalid
+
++=	-=	*=	/=	%=
+num1=20;
+
+num1+=10;
+num1=num1+10;
+num1=20+10;
+num1=30;
+==============
+num2=num1+10;
+num2=20+10;
+num2=30
