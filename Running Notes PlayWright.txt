@@ -580,6 +580,7 @@ FALSE	TRUE	FALSE	TRUE
 
 FALSE	FALSE	FALSE	FALSE	TRUE
 
+
 4.Assignment Operators:
 --------------------
 a=10; Valid
@@ -597,3 +598,90 @@ num1=30;
 num2=num1+10;
 num2=20+10;
 num2=30
+
+5.Unary Operators:
+----------------
++10:Positive 10+20
+-20:Negative 10-20
+
+Increment:++ +1
+a=5; a++
+for(let i=1;i<=10;i--) +1
+
+A.Pre-Increment:++a a=10 First +1 11 Print:11 Update Value:a=11
+
+B.Post-Increment:b++ b=10 First Print:10 +1 11 Update:b=11
+
+Decrement:-- -1
+
+C.Pre-Decrement:--c c=10.5 First -1 9.5 Print:9 Update:c=9
+
+D.Post-Decrement:d-- d=10 First Print:10 -1 Update:d=9
+
+6.Ternary Operators:Conditional
+--------------
+if condition
+
+? :
+
+7&8:Bitwise and Shift Operators:
+-----------------
+Bitwise AND(&) Bitwise OR(|) Bitwise XOR(^)
+
+Input:Integer->Binary->& | ^->Integer
+OutPut:Integer
+
+
+Truth Table:
+-----------
+Input1	Input2	AND(&&)	OR(||) 	XOR(^)
+----------------------------------------
+1		1		1		1		0	
+
+1		0		0		1		1
+
+0		1		0		1		1
+	
+0		0		0		0		0	
+
+Decimal to Binary
+
+Binary to Decimal
+
+a=10, b=12 a&b a|b a^b 
+
+Shift:a=5 <<4
+Left: << Right to Left
+Right: >> Left to Right
+
+
+Basic Concepts: Core Java Python .net C C++
+OOPS:
+
+Control Flow Statements in JS/TS:
+-------------------------------
+Control Floe Execution:
+
+Sequential Flow:Order or Line by Line 
+Control Flow 
+
+Pass, A B C D Fail 22 55
+Fail
+
+1.Conditional/Branching/Selection Statements
+A.if condition:
+a.simple-if()
+b.if-else()
+c.else-if or ladder-if()
+d.nested-if()
+B.switch condition
+
+2.Looping/Iterative Statements:
+a.for()
+b.while()
+c.do-while()
+d.nested-loops
+
+3.Jumping Statements
+break
+continue
