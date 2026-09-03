@@ -685,3 +685,96 @@ d.nested-loops
 3.Jumping Statements
 break
 continue
+
+A.Simple-if():
+------------
+< <= > >= == !=
+Input:a>10; a=15 
+OutPut:Boolean: true
+
+Sequential Flow:
+
+TBS:True Block Statements:true:Greater 
+FBS:False Block Statements:false:Lesser 
+a>10; a=5
+
+true:Pass 
+false:Fail 
+
+Definition
+Syntax
+FlowChart
+Explanation
+Example Program
+
+Syntax:Pre-define formet 
+Syntax:Scope variablename:datatype=Value;
+Example:let obtainedmarks:number=55;
+
+Only TBS , false null 
+Ex:500 50  1,2,3,4:null 
+
+syntax:
+-----
+if(Condition) t/f  1 2 3 4 5
+{
+Body; TBS;
+}
+Exit null
+
+b.if-else():
+----------
+Syntax:
+-----
+if(Condition) t/f  1 2 3 4 5
+{
+Body; TBS;
+}
+else
+{
+Body; FBS;
+}
+Exit 
+
+C.else-if() or ladder-if():
+-------------------
+A B C D Fail 
+Syntax:
+-------
+if(Condition-1) t/f  
+{
+Body; TBS;
+}
+else if(Condition-2) t/f 
+{
+TBS;
+}
+else if(Condition-3) t/f 
+{
+TBS;
+}
+else 
+{
+FBS;
+}
+
+Nested if:
+---------
+Syntax:
+-----
+if(Condition) //Outer:T T F 
+{
+if(Condition) //Inner:T F 
+{
+Body; TBS; 
+}
+else{Inner 
+FBS; PWD 
+}
+}
+else{ Outer
+FBS; Mobile
+}
+
+Switch()
+Loops 
