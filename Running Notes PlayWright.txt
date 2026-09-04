@@ -776,5 +776,103 @@ else{ Outer
 FBS; Mobile
 }
 
-Switch()
-Loops 
+===============
+Switch(expression): t/f TBS(break)
+Selection:  
+
+Syntax:
+-------
+switch(expression)
+{
+case1:
+{
+Body;
+break;
+}
+case2:
+{
+Body;
+break;
+}
+---------
+-------
+-------
+default:
+{
+Body: FBS;
+}
+
+2.Loops or Iterative Statements:
+--------------------------
+Agile Model:Scrum:Sprints:
+
+Print:Good Morning:10Times[Console]
+
+PlayWright Script:Login Page:20LOS
+10x20LOs=200LOs Duplicate
+
+1.Entry Control Loops
+A.for()[Counted]:Fixed Length Loop:Start->End:5->10
+Syntax:
+-------
+for(InitialValue;Condition;Increment/Decrement)
+{
+Body;
+}
+
+let a=10;
+a+2; 12 
+
+B.while():Infinite Loops:Continuously 2 
+Syntax:
+------
+while(true)
+{
+Body;
+}
+===============
+InitialValue; i=1 i=2
+while(Condition) i<=5 1<=5t 2<=5t 6<=5t 
+{
+Body; print:i 1 2
+Increment/Decrement;i++; 2 3 4 5 
+}
+
+2.Exit Control Loops:
+do-while():
+----------
+Syntax:
+-----
+InitialValue;
+do 
+{
+Body;
+Increment/Decrement;
+}while(Condition);
+
+Nested Loops:
+----------
+1	2	3	4	5:SR MC
+1
+2
+3
+4
+5 MR SC: 
+
+for while do-while
+
+for() Outer Rows 
+{
+for() Inner Columns
+{
+Body;
+}
+}
+
+Print():5times;12345
+Println();
+1
+2
+3
+4
+5

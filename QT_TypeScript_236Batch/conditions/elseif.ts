@@ -8,7 +8,7 @@ if(obtMarks>=85 && obtMarks<=100) //55>=85 f 125>85 85 to 100
 }
 else if(obtMarks>=70 && obtMarks<85) //55>=70 f
 {
-    console.log("B Grade");
+    console.log("B Grade");  //TBS
 }
 else if(obtMarks>=55) //55>=55 t
 {
