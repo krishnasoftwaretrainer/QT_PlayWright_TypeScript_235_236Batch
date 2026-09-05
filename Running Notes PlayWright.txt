@@ -775,8 +775,8 @@ FBS; PWD
 else{ Outer
 FBS; Mobile
 }
+if(Condition):t/f TBS Exit(Stop) FBS Exit 
 
-===============
 Switch(expression): t/f TBS(break)
 Selection:  
 
@@ -850,8 +850,8 @@ Body;
 Increment/Decrement;
 }while(Condition);
 
-Nested Loops:
-----------
+Nested for Loops:
+----------------
 1	2	3	4	5:SR MC
 1
 2
@@ -861,9 +861,9 @@ Nested Loops:
 
 for while do-while
 
-for() Outer Rows 
+for() Outer Rows T1 2T 3F 
 {
-for() Inner Columns
+for() Inner Columns 5T 6F 5T 6F 
 {
 Body;
 }
@@ -876,3 +876,38 @@ Println();
 3
 4
 5
+
+Rows and Columns Combinations:Arrays 
+
+println() 1 2 3 4
+print() 
+5	6	7	
+5	6	7
+5	6	7
+5	6	7
+----------
+5	5	5
+6	6	6
+7	7	7
+8	8	8
+
+1Outer=5Inner
+1 
+1	2	3	4	5 F 
+2
+1	2	3	4	5
+3
+1	2	3	4	5
+4
+1	2	3	4	5
+5
+1	2	3	4	5
+False 
+
+Jumping Statements:
+------------------
+break;->switch[Stop the execution Permanently]
+switch or loops:USe 
+ + - * / 
+continue; STOP [Specific]
+Loop:

@@ -1,9 +1,11 @@
 //Print 1 to 10 Numbers using for loop
-/*
+
 for(let i=1; i<=10;i--)  //T/F Entry Control
 {
     //console.log(i);
     console.log(i + ".Good Morning!");
+    //break;
+    continue;
 }
 
     /*

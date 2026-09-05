@@ -38,7 +38,8 @@ switch(choice)
         {
             let div:number=a/b;
             console.log("Division: " +div);
-            break;
+            //break;
+           // continue;
         }
 
     default:
