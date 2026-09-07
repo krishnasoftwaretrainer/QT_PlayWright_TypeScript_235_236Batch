@@ -1,13 +1,10 @@
 "use strict";
-let a = 10, b = 201, c = 30;
-if (a > b) {
-    if (a > c) {
-        console.log("a is big");
+let a = [[1, 2, 3], [4, 5, 6], [7, 8, "Krishna"]];
+//console.log(a);
+//process.stdout.write(a[0][1].toString());
+for (let i = 0; i < a.length; i++) {
+    for (let j = 0; j < a[i].length; j++) {
+        process.stdout.write(a[i][j].toString() + "   ");
     }
-}
-else if (b > c) {
-    console.log("b is big");
-}
-else {
-    console.log("c is big");
+    console.log();
 }

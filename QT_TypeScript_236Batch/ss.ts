@@ -1,29 +1,14 @@
-let day:string="GEFMGNME";
+declare const process:any;
+let a:(number|string)[][]=[[1,2,3],[4,5,6],[7,8,"Krishna"]];
 
-switch(day.toLowerCase())
+//console.log(a);
+//process.stdout.write(a[0][1].toString());
+
+for(let i=0;i<a.length;i++)
 {
-    case "monday":
-        {
-            console.log("Today Monday");
-            break;
-        }
-        case "tuesday":
-        {
-            console.log("Today tuesday");
-            break;
-        }
-        case "wednessday":
-        {
-            console.log("Today wednessday");
-            break;
-        }
-        case "thursday":
-        {
-            console.log("Today thursday");
-            break;
-        }
-        default:
-            {
-                console.log("Not a week day");
-            }
+    for(let j=0;j<a[i].length;j++)
+    {
+process.stdout.write(a[i][j].toString()+"   ");
+    }
+    console.log();
 }

@@ -911,3 +911,79 @@ switch or loops:USe
  + - * / 
 continue; STOP [Specific]
 Loop:
+
+Single Values
+Primitive Data types:
+let a:number=11; Normal Variable
+a=12;
+a=13;
+
+const htno1:number=101; //1000000 Students 
+const htno2:number=102;
+
+Non-Primitive Data Types:
+--------------------
+
+Arrays in JS/TS:
+---------------
+Arrays can store multiple values in single variable with different datatypes. 
+
+101 Krishna 99.99 true:any
+
+Declaration and Initialization
+
+Advantages of using Arrays:Index[0 and n-1]
+Syntax:
+--------
+const htno:number[]=[101,102,103,104,105];
+			Index:htno[0]=101;
+				 htno[1]=102;
+				 htno[2]=103;
+	String Index:0
+	Ending Index:n-1 [10-1=9]
+Values: 1	2	6	4	2	6
+Index:  0	1	2	3	4	5
+Arrays vs Normal Variables:
+
+Types of Arrays:
+1.Single-Dimensional or One-Dimensional Array
+SR With MC or MR with SC 
+Syntax:
+---
+Scope Arrayvariablename:datatype[]= [value1,valu2,valu3,....]
+SR MC:11 12 13 14 15
+MR SC:
+11
+12
+13
+14
+15
+
+
+->Different data type Arrays
+->Reading/accessing values using index  
+->Updating Values Using Index
+->First and Last Element Using Index
+[console.log(arr[arr.length - 1]);]
+->Array Traversal
+Using for loop
+Using for...of:Values 
+Using for...in:Index 
+->push() and pop() Methods
+
+2.Double(Two) or Multi-Dimensional Array
+MR with MC 
+
+Declaration and Initialization of 2D Array
+Different Data Type 2D Arrays
+Reading / Accessing Values Using Row and Column Index
+
+Array Arithmetic Operations
+Addition of array elements
+Subtraction
+Multiplication
+Division
+
+Strings:Methods
+
+OOPs:
