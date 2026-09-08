@@ -1,10 +1,9 @@
 "use strict";
-let a = [[1, 2, 3], [4, 5, 6], [7, 8, "Krishna"]];
-//console.log(a);
-//process.stdout.write(a[0][1].toString());
-for (let i = 0; i < a.length; i++) {
-    for (let j = 0; j < a[i].length; j++) {
-        process.stdout.write(a[i][j].toString() + "   ");
-    }
-    console.log();
-}
+let values = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
+//let result = values.pop();
+let result = values[1].pop();
+console.log(result);
+console.log(values);

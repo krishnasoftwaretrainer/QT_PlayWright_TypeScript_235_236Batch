@@ -951,6 +951,7 @@ SR With MC or MR with SC
 Syntax:
 ---
 Scope Arrayvariablename:datatype[]= [value1,valu2,valu3,....]
+
 SR MC:11 12 13 14 15
 MR SC:
 11
@@ -966,13 +967,19 @@ MR SC:
 ->First and Last Element Using Index
 [console.log(arr[arr.length - 1]);]
 ->Array Traversal
-Using for loop
+Using for loop[length]
 Using for...of:Values 
 Using for...in:Index 
 ->push() and pop() Methods
 
 2.Double(Two) or Multi-Dimensional Array
 MR with MC 
+
+->Array Traversal
+Using for loop[length]
+Using for...of:Values 
+Using for...in:Index 
+->push() and pop() Methods
 
 Declaration and Initialization of 2D Array
 Different Data Type 2D Arrays
@@ -985,5 +992,300 @@ Multiplication
 Division
 
 Strings:Methods
+-------------
+Collection of Characters.
+Alphabets:A to Z and a to z 
+Digits:0 to 9 
+SS:%$$^^*()*)(
+White Space How are you? 
 
-OOPs:
+Name:Rama Rao 
+
+Number:10 20 : 10+20=30
+String:"10" "20": "10"+20=1020
+
+Declaration and Initialization:
+-----------------
+' '
+" "
+`	`
+c=a+b: Addition:30
+console.log("Addition:"+c);
+
+console.log(`Addition: ${c}`);
+
+String Methods:
+-------------
+Assignment:
+--------
+1.Write TS Program enter Student details to cover all data types[Primitive and Non-Primitive] and print same values in output.
+
+2.Write TS Program enter Employee details to cover all data types[Primitive and Non-Primitive] and print same values in output.
+
+3.Write TS Program enter Customer details to cover all data types[Primitive and Non-Primitive] and print same values in output.
+
+= == ===
+Arrays Programs:
+-------
+Array can store multiple values different datatypes.
+1.Single Dimensional 
+2.Two Dimensional
+
+===========================
+Two Dimensional Array
+
+
+for...in  → indexes
+for...of  → values
+
+//Using in operator 
+for(var i in values)
+{
+for(var j in values[i])
+{
+
+console.log(values[i][j]);
+}
+
+Access array elements based on Index
+console.log(values[0][0]);
+console.log(values[0][1]);
+console.log(values[1][0]);
+console.log(values[1][0]);
+
+Example:
+-----
+let values: number[][] = [
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 90]
+];
+
+for (var i in values) {
+    for (var j in values[i]) {
+        console.log(i, "  ", j);
+    }
+}
+
+Array Using for...of
+let values: number[][] = [
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 90]
+];
+
+for (var i of values) {
+    for (var j of i) {
+        console.log(j);
+    }
+}
+---------------
+
+1. Push a new row
+
+Consider:
+
+let values: number[][] = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
+
+Add a complete new row:
+
+values.push([7, 8, 9]);
+
+console.log(values);
+
+Output:
+
+[
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+
+Here:
+
+values.push([7, 8, 9]);
+
+adds [7, 8, 9] as a new row.
+
+3. Push an element into a particular row
+
+This is where it becomes interesting.
+
+let values: number[][] = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
+
+Suppose you want to add 7 to the first row.
+
+values[0].push(7);
+
+console.log(values);
+
+Output:
+
+[
+  [1, 2, 3, 7],
+  [4, 5, 6]
+]
+
+Why?
+
+values[0]
+
+means:
+
+[1, 2, 3]
+
+Therefore:
+
+values[0].push(7);
+
+means:
+
+Add 7 to the end of row 0.
+
+4. Push into the second row
+values[1].push(8);
+
+console.log(values);
+
+Output:
+
+[
+  [1, 2, 3, 7],
+  [4, 5, 6, 8]
+]
+
+Because:
+
+values[1]
+
+is:
+
+[4, 5, 6]
+
+====================
+
+2. Pop a row
+let values: number[][] = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+
+let result = values.pop();
+
+console.log(result);
+console.log(values);
+
+Output:
+
+[7, 8, 9]
+
+[
+  [1, 2, 3],
+  [4, 5, 6]
+]
+
+So:
+
+push([7,8,9]) → adds a row
+pop()          → removes the last row
+
+5. Pop from a particular row
+let values: number[][] = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
+
+let result = values[0].pop();
+
+console.log(result);
+console.log(values);
+
+Output:
+
+3
+
+[
+  [1, 2],
+  [4, 5, 6]
+]
+
+Here:
+
+values[0].pop()
+
+removes the last element from row 0.
+
+6. Very Important Difference
+
+Look at these two:
+
+values.push()
+values.push([7, 8, 9]);
+
+Adds a new row:
+
+[1,2,3]
+[4,5,6]
+[7,8,9] ← new row
+values[0].push()
+values[0].push(7);
+
+Adds an element to row 0:
+
+[1,2,3,7] ← modified row
+[4,5,6]
+
+So remember:
+
+2D Array
+
+values.push([7,8,9])
+       ↑
+   adds a row
+
+
+values[0].push(7)
+         ↑
+    adds to row 0
+7. Example with push() and pop()
+let values: number[][] = [
+    [1, 2, 3],
+    [4, 5, 6]
+];
+
+// Add a new row
+values.push([7, 8, 9]);
+
+// Add an element to row 0
+values[0].push(10);
+
+// Remove last element from row 1
+values[1].pop();
+
+console.log(values);
+
+Result:
+
+[
+  [1, 2, 3, 10],
+  [4, 5],
+  [7, 8, 9]
+]
+Easy rule
+
+For a 2D array, array.push() / array.pop() operate on rows, while array[row].push() / array[row].pop() operate on elements within that row.
+======================================
+
+
+
+
+
+Functions in JS/TS:
+-------------------
