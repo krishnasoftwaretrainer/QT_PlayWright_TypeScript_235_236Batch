@@ -1,9 +1,5 @@
 "use strict";
-let values = [
-    [1, 2, 3],
-    [4, 5, 6]
-];
-//let result = values.pop();
-let result = values[1].pop();
-console.log(result);
-console.log(values);
+function add() {
+    console.log(21 - 11);
+}
+add();

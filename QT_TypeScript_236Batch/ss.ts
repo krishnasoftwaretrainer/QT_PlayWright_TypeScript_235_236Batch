@@ -1,8 +1,7 @@
-let values: number[][] = [
-    [1, 2, 3],
-    [4, 5, 6]
-];
-//let result = values.pop();
-let result = values[1].pop();
-console.log(result);
-console.log(values);
+
+
+let res1 = function(): void {
+    console.log(21 - 11);
+};
+
+res1();

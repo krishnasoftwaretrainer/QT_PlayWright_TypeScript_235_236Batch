@@ -1282,10 +1282,60 @@ Easy rule
 
 For a 2D array, array.push() / array.pop() operate on rows, while array[row].push() / array[row].pop() operate on elements within that row.
 ======================================
-
-
-
-
-
 Functions in JS/TS:
--------------------
+-----------------
+function():Re-Usable Code/Script
+Not required class 
+Calling is Mandatory
+Directly
+
+Syntax:
+-----
+function FunName():ReturnType
+{
+Body;
+}
+FunName();
+
+Pre-Define:str1.replace("","");
+Sqrt:25 
+Math.sqrt(num)
+
+User-Define:
+addition();  Rules:
+
+4Types of User-define Functions:
+-----
+WithOut Parameters Without ReturnType
+With Parameters Without ReturnType
+WithOut Parameters With ReturnType
+With Parameters With ReturnType
+
+Parameters[Optional]:Re-Used Variables 
+a=10 
+b=20 
+a-b 
+c=30
+d=40
+c-d 
+
+50Times: + Duplication  Re-Usable
+function
+
+Static Input:Fixed Values[Pre-define]
+Developer
+Dynamic Input:User-Define
+==================
+Method:Re-Usable Code/Script
+Should declare inside class.
+Calling is Mandatory
+Call:ClassName and ObjName
+
+Calling Methods in 2Ways:
+----------
+Static Way:Calling through ClassName
+ClassName.MethodName();
+Math.sqrt(num)
+
+Instance Way:Calling through Object
+Object.MethodName();
