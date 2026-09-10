@@ -1339,3 +1339,102 @@ Math.sqrt(num)
 
 Instance Way:Calling through Object
 Object.MethodName();
+
+OOPs Concepts:
+-------------
+Object Oriented Programming Concepts
+
+1.Re-Usability
+2.Readability
+3.Security:public private protected
+
+With using OOPs:Re-Use:Login:10TC { } { } 
+Without using OOPs:No Re-Use 10Times {  }
+
+Block:{ block  } functions or methods 
+
+4 Pilers in OOPs:
+---------------
+1.Inheritance
+2.Polymorphism
+3.Data Abstraction
+4.Encapsulation
+
+Class:BluePrint->Virtual 
+Templet:Basic Features or Common Features 
+Bank[Class]:Common Features 
+
+Mobile(Class):Cal Messages  
+Samsung:Cal Messages: 
+Oppo:Cal Messages Camera Payment Touch
+
+Vehicle(Class):
+Lorry:
+Bus 
+Car 
+
+Object:Instance of Class Physical or Real
+SBI[Object]:
+ICICI:
+HDFC:
+
+Identity Behaviour State
+
+Methods in JS/TS:
+--------------
+Functions vs Methods 
+Specific Block of Code 
+Using for Specific purpose 
++ - * /
+Calling is Mandatory:Both 
+
+function functionName():ReturnType
+{
+Body;
+}
+
+Syntax:Method Signature
+----- BTech  CSE{  }  ECE  CIVIL 
+class className
+{
+AccessSpecifier MethodName():ReturnType
+{
+Body; Statements;
+}
+
+}
+
+2Types of Methods:
+--------------
+1.Pre-Define:
+2.User-Define:
+
+A.Static Methods:Call through ClassName
+ClassName.MethodName();
+
+B.Non-Static/Instance Methods:Call through ObjName
+Create Object first then use or cal 
+Syntax:KeyWord ObjName=new ClassName();
+
+ObjName.MethodName(); 
+
+Calling of Methods:
+
+Access Specifiers or Access Modifiers:
+-------------------------
+public:Access directly Out side of Class or anywhere.
+
+private:Access only inside class only.
+protected
+
+ReturnType: number string void 
+
+4Types of User-Defined Methods:
+-----
+WithOut Parameters Without ReturnType
+With Parameters Without ReturnType
+WithOut Parameters With ReturnType
+With Parameters With ReturnType
+
+Constructor in JS/TS:
+-----------------

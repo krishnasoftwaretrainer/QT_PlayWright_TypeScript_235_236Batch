@@ -1,7 +1,23 @@
+class parent1
+{
+    Father()
+    {
+console.log('Father')
+    }
+}
 
 
-let res1 = function(): void {
-    console.log(21 - 11);
-};
+class Child 
+{
+    Child()
+    {
+        console.log("Son");
+    }
+}
 
-res1();
+// let f=new parent1();
+// f.Father();
+
+let s=new Child();
+s.Father();
+s.Child();

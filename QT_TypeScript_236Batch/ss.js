@@ -1,5 +1,16 @@
 "use strict";
-function add() {
-    console.log(21 - 11);
+class parent1 {
+    Father() {
+        console.log('Father');
+    }
 }
-add();
+class Child extends parent1 {
+    Child() {
+        console.log("Son");
+    }
+}
+// let f=new parent1();
+// f.Father();
+let s = new Child();
+s.Father();
+s.Child();
