@@ -1,16 +1,23 @@
 "use strict";
-class parent1 {
-    Father() {
-        console.log('Father');
+class abs {
+    bankname() {
+        console.log("SBI");
     }
 }
-class Child extends parent1 {
-    Child() {
-        console.log("Son");
+class chs extends abs {
+    deposit() {
+        console.log("deposit:5k");
     }
 }
-// let f=new parent1();
-// f.Father();
-let s = new Child();
-s.Father();
-s.Child();
+class chs2 extends abs {
+    deposit() {
+        console.log("deposit:10k");
+    }
+}
+let c = new chs();
+c.bankname();
+c.deposit();
+console.log("-----------");
+let c1 = new chs2();
+c1.bankname();
+c1.deposit();

@@ -1,23 +1,34 @@
-class parent1
+abstract class abs
 {
-    Father()
+    abstract deposit():void;
+
+    bankname()
     {
-console.log('Father')
+        console.log("SBI");
     }
 }
 
-
-class Child 
+class chs extends abs
 {
-    Child()
+    deposit():void 
     {
-        console.log("Son");
+        console.log("deposit:5k")
     }
 }
 
-// let f=new parent1();
-// f.Father();
+class chs2 extends abs
+{
+    deposit():void 
+    {
+        console.log("deposit:10k")
+    }
+}
 
-let s=new Child();
-s.Father();
-s.Child();
+let c=new chs();
+c.bankname();
+c.deposit();
+console.log("-----------");
+
+let c1=new chs2();
+c1.bankname();
+c1.deposit();

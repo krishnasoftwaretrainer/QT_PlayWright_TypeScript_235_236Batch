@@ -1438,3 +1438,118 @@ With Parameters With ReturnType
 
 Constructor in JS/TS:
 -----------------
+Special Method:this keyword
+
+Method:{} Variable:10 Local Global
+Call
+static:ClassName	
+Instance:Object
+Object.MethodName()
+Object.VariableName;
+ClassName.MethodName();
+ClassName.VariableName;
+
+1.WithOut Parameter Constructor
+2.With Parameter Constructor
+3.Default Constructor
+
+
+Inheritance in JS/TS:
+-------------------
+Re-Usability:WO RMT
+extends keyword
+class and obj
+
+1.Single-Level:One Parent and One Child
+2.Multi-Level:Parent Child SubChild
+3.Hierarchical:Parent Child1 Child2 Child3
+
+4.Multiple Inheritance:
+--------------------
+
+Polymorphism:MOL MOR 
+Data Abstraction and Interface
+Encapsulation
+Exception Handling
+
+Polymorphism:MOL MOR 
+------------Re-Reusability
+Poly+Morphism=Polymorphism
+Many+Forms
+
+1.CompileTime/Static Polymorphism
+Method OverLoading:
+Same method name with different parameters.
+
+add(num1:number,num2:number)->20+10
+add(num1:number,num2:number,num3:number) ->20+30+10
+Obj.add(20,30,40);+
+
+Number of Parameters:
+add(num1:number,num2:number)->20+10
+add(num1:number,num2:number,num3:number) 
+
+Different datatypes of Parameters 
+stuinfo(htno:number,marks:number)->20+10
+stuinfo(sname:string,cource:string)
+stuinfo(result:boolean,regularity:boolean)
+
+2.RunTime/Dynamic Polymorphism
+Method OverRiding:Inheritance Concept
+
+Parent:Properties
+
+Child:Followed
+
+Data Abstraction:abstract methods 
+-----------------
+Hiding
+
+Parent:Manufacture ATM
+
+Child:Using ATM 
+
+
+Class have 2Types:
+---------------
+1.Normal Class:
+Only accepts the normal methods.
+class classname{  }
+Normal class accept the abstract method:False
+
+
+2.Abstract Class
+It accepts the normal and abstract methods
+abstract class classname{  }
+
+Methods have 2Types:
+--------
+1.Implemented[Normal]
+method signature
+Method with Implementation
+Method with Body
+
+2.Un-Implemented[Abstract]
+abstract method signature 
+Method:No Implementation
+Empty Method
+
+Security:
+
+Interface:
+--------
+1.To achieve 100% Data abstraction
+2.To achieve the Multiple Inheritance
+implements 
+
+Interface class only accepts the un implemented methods:True
+child implements parent
+
+Syntax:
+-----
+interface interfaceName
+{
+Un-Implemented Methods;
+}
+
+
