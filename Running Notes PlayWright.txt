@@ -1553,3 +1553,107 @@ Un-Implemented Methods;
 }
 
 
+
+abstract class:0 to 100% 50%
+Un-Implemented Methods:No Body 
+Implemented Methods:Body 
+
+interface:100%
+Un-Implemented Methods:No Body 
+
+1.To achieve 100% Data Abstraction
+2.To use Multiple Inheritance
+
+Syntax:
+------
+interface interfaceName  //Parent 
+{
+Declare Un-Implemented Methods();
+}
+
+class classname implements interfaceName//Child Class 
+{
+Implement Parent Methods();
+}
+
+Encapsulation in JS/TS:
+-----------------------
+private Result():void 
+{
+}
+
+Banking:
+-------
+Class Customer[Krishna] SBI 
+private balance=5k;
+3k->Server Problem
+2K
+
+Class Employee SBI
+
+Class Manager SBI
+
+getter and setter
+
+Errors in JS/TS:
+---------------
+1.CompileTime:
+2.RunTime:Exceptions 
+3.Logical Errors: 2-2=0
+
+Exception Handling:
+-----------------
+tsc:Compilation
+Error Checking:
+----------
+1.Interpreter
+2.Compiler
+
+ArthameticException:33/0
+NullPointerException
+ArraysIndexOutOfBoundException
+===============================================================
+
+Install Playwright using Terminal
+Install Playwright using VS-Code Extension 
+Explanation playwright.config.ts
+Run Playwright Tests in different ways
+Get Title and URL Validate using if condition
+Get Title and URL Validate using toHaveTitle(), toHaveURL()
+Browser Navigations[forward,backward,refresh]
+
+
+Playwright:Automation Testing Tool
+TypeScript
+
+To perform testing by using automation tools.
+
+Script:TypeScript Concepts+Playwright Concepts
+
+Regression Testing
+
+Node JS 
+
+Playwright Installation:Library[Folder] 
+2Ways:
+----
+1.VS-Code Terminal
+2.VS-Code Extension
+
+Pre-define:Folders or Packages 
+User-define
+
+HeadLess and Headed 
+All Browsers 
+Specific Browser
+Parallel Mode 
+Sequence Mode 
+
+npx playwright test
+
+Browsers:
+--------
+Playwright Browsers:Chromium WebKit Firefox
+Mobile Browsers:Mobile Chrome and Safari
+Desktop Browsers:Chrome Edge Firefox
+

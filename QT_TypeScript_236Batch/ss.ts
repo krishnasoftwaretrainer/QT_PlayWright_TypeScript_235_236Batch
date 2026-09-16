@@ -1,34 +1,49 @@
-abstract class abs
-{
-    abstract deposit():void;
+class customer    {
+ private accname: string = "Krishna";
+ private accno: number = 222222;
+ private balance: number = 10;
 
-    bankname()
+ public set accname1(value:string)
     {
-        console.log("SBI");
+        this.accname=value;
     }
+
+ public get accname1():string
+    {
+        return this.accname;
+    }
+
+    public set accno1(value:number)
+    {
+        this.accno=value;
+    }
+
+    public get accno1():number
+    {
+        return this.accno;
+    }
+
+    public set balance1(value:number)
+    {
+        this.balance=value;
+    }
+
+    public get balance1():number
+    {
+        return this.balance;
+    }
+
 }
 
-class chs extends abs
+class emp extends customer
 {
-    deposit():void 
-    {
-        console.log("deposit:5k")
-    }
+    
+
 }
-
-class chs2 extends abs
-{
-    deposit():void 
-    {
-        console.log("deposit:10k")
-    }
-}
-
-let c=new chs();
-c.bankname();
-c.deposit();
-console.log("-----------");
-
-let c1=new chs2();
-c1.bankname();
-c1.deposit();
+let cc=new emp();
+cc.accname1="Ramesh";
+cc.accno1=333333;
+cc.balance1=20;
+console.log(cc.accname1);
+console.log(cc.accno1);
+console.log(cc.balance1);

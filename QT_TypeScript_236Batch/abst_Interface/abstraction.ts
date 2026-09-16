@@ -1,8 +1,8 @@
 abstract class RBI1  //Class Parent
 {
-    abstract RateOfIntrest():void;  //Method-1
+    abstract RateOfIntrest():void;  //Un-Implemented Method-1
 
-    BankTiming():void  //Method-2 
+    BankTiming():void  //Non-abstract Method-2 
     {
         console.log("Bank Timing is: 9AM to 5PM");
     }
