@@ -1,12 +1,13 @@
 import { test, expect } from '@playwright/test';
 
-test('Testing Case-1', async ({ page }) => { 
+test.only('Testing Case-1', async ({ page }) => { 
 
   await page.goto('https://www.saucedemo.com/');
  await page.waitForTimeout(3000); 
  
   const ttile=page.url();
   console.log('URL:',ttile);
+  expect(page).toHaveTitle(/Swag Labs/);
 
 });
 

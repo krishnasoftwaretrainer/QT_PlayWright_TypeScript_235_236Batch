@@ -1656,4 +1656,50 @@ Browsers:
 Playwright Browsers:Chromium WebKit Firefox
 Mobile Browsers:Mobile Chrome and Safari
 Desktop Browsers:Chrome Edge Firefox
+=============
+Smoke Testing:ER vs AR:P F 
+URL Verification
+Title Verification
 
+Assertions:Validations
+Built-in:Default
+Manual:if condition
+
+Web Elements:
+Text Box and Text Area:fill or type 
+Buttons and Links:Click
+Radio Buttons and Check Box:Check & Uncheck
+DropDowns[List Box]:Select   
+
+Web Locators:
+1.Built-in:Playwright
+page.getByRole():Login
+page.getByLabel()
+page.getByPlaceholder()
+page.getByText()
+page.getByAltText()
+page.getByTitle()
+page.getByTestId()
+
+2.External:CSS-Selector and XPath 
+
+https://www.salesforce.com/products/free-trial/developer/
+
+page.getByLabel('Country/region').selectOption({index:15});
+page.getByLabel('Country/region').selectOption('Australia');
+page.getByRole('combobox',{name:'State/province'}).selectOption({value:'TAS'});
+
+Assignment:
+-----------
+Automate the Swag Login Page:
+VU VP,VU IVP,IVU VP,IVU IVP,VU B,IVU B,B VP,V IVP,B B. 9
+
+
+XPath:
+-----
+Syntax: //TagName[@Attribute="Value"]
+
+CSS-Selector:
+------------
+Using ID:#Id Value 
+[Attribute="Value"]
