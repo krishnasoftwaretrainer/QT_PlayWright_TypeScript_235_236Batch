@@ -23,20 +23,18 @@ await page.goto('/');
 
 // test.only('Swag Invalid Login', async ({ page }) => { 
 test.only('Swag Invalid Login', async ({ page }) => { 
-//   await page.goto('https://www.saucedemo.com/');
-await page.goto('/');
+ await page.goto('https://www.saucedemo.com/');
+//await page.goto('/');
 
  await page.waitForTimeout(3000); 
 
- await expect(page).toHaveTitle(/Swag Labs11/);
+ await expect(page).toHaveTitle(/Swag Labs/);
 
  await page.getByRole('textbox', { name: 'Username' }).fill('invalid');
  //await page.pause();
  await page.getByRole('textbox', { name: 'Password' }).fill('secret_sauce');
 
  await page.getByRole('button', { name: 'Login' }).click();
-
- 
 
 });
 

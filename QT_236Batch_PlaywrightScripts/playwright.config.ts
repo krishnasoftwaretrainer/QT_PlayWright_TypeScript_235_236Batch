@@ -35,7 +35,11 @@ export default defineConfig({
     //trace: 'on',
  
      headless: false,
-    //trace: 'on',
+         //trace: 'on',
+         //screenshot: 'on',
+        //  screenshot: 'only-on-failure',
+        //video: 'retain-on-failure',
+        //video: 'on',
   },
 
   /* Configure projects for major browsers */
