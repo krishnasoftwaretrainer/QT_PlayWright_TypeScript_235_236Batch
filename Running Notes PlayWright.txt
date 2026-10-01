@@ -1703,3 +1703,346 @@ CSS-Selector:
 ------------
 Using ID:#Id Value 
 [Attribute="Value"]
+
+PlayWright Concepts:
+-----------------
+Installation
+Writing Tests
+HTML Test Reports
+UI Mode
+Running and debugging tests
+Record and Play 
+Actions:
+Text input:fill() and type()
+Checkboxes and Radio buttons
+Select Options[DropDowns]
+Scrolling
+Navigations
+Screenshots and Video
+Upload and Download files
+Keys and shortcuts[Keyboard actions]
+Mouse click[Mouse Actions]
+Drag and Drop
+Web Tables
+Frames
+Windows and Tabs
+Alerts
+
+Type characters[]:pressSequentially
+Focus element
+Assertions
+Waits-Auto-Waiting
+Generating Tests/Recording Test[Codegen]
+
+isEnabled()); / toBeEnabled();
+isDisabled();
+isVisible());
+isChecked());
+isEditable();
+getAttribute();
+innerText();
+textContent();
+allTextContents();
+
+console.log(expect(mal).toBeEnabled());
+
+const errorMessage = await page.locator('[data-test="error"]').innerText();
+
+
+const mal=page.locator('input[value="Male"]');
+console.log(await mal.getAttribute('name'));
+
+
+
+let a=30,b=20;
+console.log(a+b);//30
+console.log(a-b);//-10
+console.log(a*b);//200
+------------------------
+console.log(30+20);//30
+console.log(30-20);//-10
+console.log(30*20);//200   
+
+ PLAYWRIGHT TOPICS:
+------------------------
+->INTRODUCTION TO AUTOMATION TESTING & PLAYWRIGHT
+->Playwright Installation & Project Setup
+->Writing the First Playwright Test
+[test(),page,expect(),.spec.ts]
+->Running the Playwright Test
+[npx playwright test,filename.spec.ts,--headed, --debug, --ui,page.pause(),--project=chromium, --grep "test name",--last-failed,show-report]
+->BROWSER LAUNCHING 
+[Chromium, Firefox, WebKit]
+->TITLE AND URL VERIFICATION 
+[page.title() and page.url()]
+->HEADLESS AND HEADED BROWSER
+->Playwright Configuration
+[playwright.config.ts,use,baseURL,browserName,headless,viewport,timeout,retries,workers]
+->WEB LOCATORS AND WEB ELEMENTS
+[getByRole(), getByText(), getByLabel(), getByPlaceholder(), getByTestId(), locator(),CSS,XPATH]
+->RECORD AND PLAY / CODEGEN
+[npx playwright codegen, recording actions, generating locators, generating test code]
+->LOCATOR HANDLING
+[locator(), first(), last(), nth(), count()]
+->PAGE / LOCATOR METHODS
+[click(), fill(), type(), press(), pressSequentially(), focus(), check(), uncheck(), selectOption()]
+->GETTING TEXT AND ATTRIBUTES
+[textContent(), innerText(), getAttribute()]
+->CLEARING TEXT BOXES
+[fill(''), clear(),type('')]-->Tests
+->RADIO BUTTONS and CHECKBOXES
+->ELEMENT STATE VERIFICATION
+[isVisible(), isEnabled(), isChecked()]
+->ASSERTIONS
+[toBeVisible(), toBeHidden(), toBeEnabled(), toBeDisabled(), toBeChecked(), toHaveText(), toContainText(), toHaveValue(), toHaveAttribute(), toHaveURL(), toHaveTitle(), toHaveCount()]
+---------------------
+->DROPDOWN HANDLING
+[selectOption(),label,index,value]
+->SCROLLING
+[mouse.wheel(), locator.scrollIntoViewIfNeeded()]
+->NAVIGATION COMMANDS
+[goBack(), goForward(), reload()]
+->SCREENSHOT and VIDEO RECORDING
+[Page, element and full-page screenshots,video recording][screenshot: 'on', screenshot: 'only-on-failure']
+->FILE UPLOADING AND DOWNLOADING
+[setInputFiles(), waitForEvent('download')]
+->ALERTS / DIALOG HANDLING
+[dialog.accept(), dialog.dismiss(), dialog.message(),dialog.accept('text')]
+==================================
+->FRAME / IFRAME HANDLING
+[frameLocator(), contentFrame()]
+->WEB TABLE HANDLING
+->WINDOW / TAB HANDLING
+WORKING WITH MULTIPLE WINDOWS AND TABS
+[context.waitForEvent('page'), page.waitForEvent('popup')]
+----------------------------------------
+->KEYBOARD ACTIONS
+[keyboard.press(), locator.press()]
+->MOUSE ACTIONS
+[Mouse click, hover, move, etc.]
+->DRAG AND DROP / RIGHT CLICK
+[dragTo(), mouse, click({ button: 'right' })]
+->WAITS AND AUTO-WAITING
+[Playwright auto-waiting, assertions, explicit waits where required]
+
+Frame Works:
+------------
+->PLAYWRIGHT TEST RUNNER
+->TEST HOOKS AND FIXTURES
+[beforeEach, afterEach, beforeAll, afterAll, fixtures]
+->PLAYWRIGHT CONFIGURATION
+[playwright.config.ts, projects, browsers, devices, timeout, retries]
+
+->DATA-DRIVEN TESTING
+[JSON, CSV, Excel/test data]
+->EXCEL DATA HANDLING
+->Hybrid FrameWork
+
+->PAGE OBJECT MODEL (POM)
+->REPORTING AND TRACE
+[HTML Report, Trace Viewer, screenshots, videos]
+->BDD WITH CUCUMBER
+Playwright + Cucumber
+->API TESTING WITH PLAYWRIGHT
+request, GET, POST, PUT, PATCH, DELETE, API assertions
+->PLAYWRIGHT AUTOMATION PROJECT
+->Playwright + TypeScript + POM + Data Driven + Fixtures + Assertions + Reports + CI/CD
+==================
+WebPage Scrolling:
+----------
+Vertical:Up to Down,Down to UP 
+Horizontal:Left to Right and Right to Left
+
+[mouse.wheel(), locator.scrollIntoViewIfNeeded()]
+
+Browser Navigations:
+---------------
+goto()
+backward()
+forward()
+reload() [refresh]
+
+Screenshots:
+--------
+stdout.write
+
+->FRAME / IFRAME HANDLING
+[frameLocator(), contentFrame()]
+->WEB TABLE HANDLING
+->WINDOW / TAB HANDLING
+WORKING WITH MULTIPLE WINDOWS AND TABS
+[context.waitForEvent('page'), page.waitForEvent('popup')]
+
+Frames:
+------
+frameLocator()
+
+Web Tables:
+----------
+Pattern Programs 
+Arrays 
+
+Table: table 
+Header:thead 
+Row: tr 
+Columns: th 
+Body:tbody
+Rows : tr 
+Columns: td 
+
+10 Values: 5
+first(value);
+last(value);
+nth(index);4
+
+New Tabs and New Windows
+Browser Context Page 
+
+Browser
+Profile
+Tab 
+
+WebDriver driver=new ChromeDriver();
+driver.get('');
+driver.close();
+
+WebDriver driver=new EdgeDriver();
+driver.get('');
+driver.close();
+
+Mouse Actions: Left click, Right click (Context Click), and Double click.
+Typing Mastery: Using fill() vs. type() for character-by-character input.
+Keyboard Keys: How to use keys like Enter, Tab, Control, and Backspace in your scripts.
+Real-world Scenarios: Automating search bars and keyboard shortcuts
+
+
+Good Evening all of you...
+Today demo Session will starts with in few minutes...
+
+Script:Playwright Methods + TypeScript
+
+All file and All Tests 
+Head Less 
+Parallel Mode 
+Report:HTML 
+Multi Browsers 
+Inbuilt Browsers:Chromium Firefox WebKit
+
+Actions:
+
+Mouse:
+-----
+Click
+Double Click
+Right Click 
+Hover
+drag by 
+Scroll Page 
+
+Keyboard:
+Enter
+type Sequential
+Ctrl+A C V 
+Shift+KeyA Capital Letters
+
+
+Drag and Drop
+
+http://www.uitestingplayground.com/ajax
+WaitforURL
+ timeout: 60 * 1000, 
+
+Auto-waiting
+Hard wait:30s 20s 	
+Explicit wait
+
+
+Synchronisation:
+---------------async 
+
+Waits or Waiting 
+
+3000ms:30s 
+
+GenericAssertions
+PageAssertions
+LocatorAssertions
+--------
+Generic Assertions = Non-retrying
+Page Assertions = Auto-retrying
+Locator Assertions = Auto-retrying
+
+
+Basic Concepts: 
+FrameWorks:
+
+End-To-End App:Search Cart Login Register CheckOut OrderHistory Tracking Logout 
+
++:1 -:6:7 ecom_login.spec.ts 
++:1 -:10:11 ecom_register.spec.ts 
+
+PLAYWRIGHT TEST RUNNER:
+----------------------
+Selenium:No:Yes TestNG/JUnit
+Playwright:Inbuilt
+
+Test FrameWork:No Write Errors 
+
+test 
+
+1. Test Runner
+2. Test Structure
+3. Assertions
+   - Generic Assertions
+   - Page Assertions
+   - Locator Assertions
+4. Hooks
+5. Fixtures
+6. Groups
+7. CLI Execution
+8. Configuration
+9. Projects
+10. Reporters
+11. Retries
+12. Workers
+13. Trace
+
+npx playwright test sample.spec.ts --project='firefox' --headed 
+
+except is using for assertions.
+Optional
+
+3. Assertions
+I.Generic Assertions:
+----------------
+expect(variable).toBe(expected);
+expect(value).toEqual(expected);
+expect(value).toBeTruthy();
+expect(value).toBeFalsy();
+expect(value).toContain(expected);
+expect(value).toHaveLength(expected);
+expect(value).toBeGreaterThan(expected);
+expect(value).toBeLessThan(expected);
+
+II. Page Assertions
+expect(page).toHaveURL(): Page has URL
+expect(page).toHaveTitle():Page has title
+Smoke Testing
+
+III.Locator Assertions:
+------------------
+A.expect(locator).toBeVisible()         Element is visible
+B.expect(locator).toBeEnabled()         Control is enabled
+C.expect(locator).toBeDisabled()        Element is disabled
+D.expect(locator).toBeChecked()         Radio/Checkbox is checked
+E.expect(locator).toHaveAttribute()     Element has attribute
+F.expect(locator).toHaveText()          Element matches text
+G. expect(locator).toContainText()       Element contains text
+H.expect(locator).toHaveValue(value)    Input has a value
+I.expect(locator).toHaveCount()        List of elements has given length
+   
+1.Hard Assertion:
+2.Soft Assertion:
+
+Data Driven FrameWork:
+---------------------
