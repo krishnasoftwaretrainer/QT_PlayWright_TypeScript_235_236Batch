@@ -2043,6 +2043,114 @@ I.expect(locator).toHaveCount()        List of elements has given length
    
 1.Hard Assertion:
 2.Soft Assertion:
+Data Driven Frame Work:
+--------------------
+To store the test data in external file[JSON,CSV,EXCEL]
+JSON:Java Script Object Notation.
+{
+"Key":"Value",
+"Key":"Value"
+}
 
-Data Driven FrameWork:
----------------------
+{
+"username":"standard_user",
+"password":"secret_sauce"
+}
+
+Read the test data from externafiles to our Script.
+Upto now we are stored out test data in scripts only.
+
+Regression Problem:Avid
+Waste of Time:Save 
+Playwright Test Engineer:Write Update Excute[Cloud/CI] TS and PW
+Business Analyst:NO  Test Data JSON EXCEL CSV:Yes 
+
+PlayWright Script:UR`L+Locators+Methods+Assertions+TestData
+
+Script[URL+Locators+Methods+Assertions]+TestData 
+
+Test Runner FrameWork
+URL:Base URL Config.ts
+Locators:POM[Page Object Model] POM Frame Work
+Test Data:JSON Data Driven FrameWork 
+
+End to End Frameworks:
+------------------
+Hybrid FrameWork:Test Runner FrameWork+POM+Data Driven
+
+Static Data:To store the testdata inside playwright scripts.
+standard_user	secret_sauce
+Dynamic Data:To store test data inside external files.
+
+Data Driven:External Files+Playwright Script
+		JSON File+Swag Login Script
+
+JSON:Playwright 
+CSV
+Excel:Selenium  
+
+for(let i=1;i<=10;i++)
+{
+console.log(i);
+}
+================
+console.log(1);
+console.log(2);
+console.log(3);
+
+
+BDD Cucumber FrameWork
+
+
+Noraml Playwright Script 
+
+
+import { test, expect } from '@playwright/test';
+
+test('has title', async ({ page }) => {
+  await page.goto('https://www.saucedemo.com/');
+  await page.pause();
+
+  await page.getByRole('textbox', { name: 'Username' }).fill('');
+  await page.getByRole('textbox', { name: 'Password' }).fill('');
+  await page.getByRole('button', { name: 'Login' }).click();
+
+});
+
+Valid Valid
+Valid Invalid
+Invalid Valid
+Invalid Invalid
+Blank Blank
+
+Page		Locators
+LoginPage	uname, pswd, login button
+HomePage	Add to cart button for the product, cart logo, sidemenu icon, logout btn
+YourCartPage	Checkout
+YourInfo	fname, lname, zipcode, continue
+Overview	Finish
+OrderConfirmation	Conirmation message, backtohome btn
+
+E2E Test1: login , add to cart, cart logo, check out , fill form , finish , backtohome, logout.
+
+E2E Test2: login , add to cart, cart logo, checkout, logout
+
+Page		Locators
+LoginPage	uname, pswd, login button
+AddtoCart	Add to cart button/s 
+Cart Page 	Cart Logo
+YourCartPage Checkout
+YourInfo	fname, lname, zipcode, continue
+Overview	Finish
+OrderConfirmation	Conirmation message, backtohome btn
+Logout		Three lines,logout btn
+
+npm install -g typescript
+
+POM or Page Object Model Framework:
+-------------
+Locators+Actions+TestData=PS
+
+Locators
+
+End-To-End Testing:
