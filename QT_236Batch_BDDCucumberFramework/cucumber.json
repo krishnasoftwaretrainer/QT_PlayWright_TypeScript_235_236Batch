@@ -1,0 +1,16 @@
+{
+  "default": {
+    "paths": [
+      "src/test/features/**/*.feature"
+    ],
+    "requireModule": [
+      "ts-node/register"
+    ],
+    "require": [
+      "src/test/steps/**/*.ts"
+    ],
+    "format": [
+      "progress"
+    ]
+  }
+}

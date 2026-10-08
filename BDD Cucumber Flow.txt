@@ -1,0 +1,61 @@
+Setup Cucumber with Playwright Typescript
+step1: create empty folder in local machine
+step2: install software
+nodejs
+vsc
+playwright
+Step3: open folder in vsccode
+Step4: install playwright
+step5: adding cucumber plugin
+step6: delete non related files
+playwright.config.json
+tests
+step7:Install cucumber
+npm i @cucumber/cucumber -D
+npm i ts-node -D
+step8:Create Folder
+src/test
+features
+steps
+step9:Create cucumber.json[Root Folder]
+{
+    "default": {
+        "paths": [
+            "src/test/features/*.feature"
+        ],
+        "publishQuiet": true,
+        "dryRun": true
+    }
+}
+===============
+{
+  "default": {
+    "paths": [
+      "src/test/features/*.feature"
+    ],
+    "require": [
+      "src/test/steps/*.ts"
+    ],
+    "requireModule": [
+      "ts-node/register"
+    ],
+    "publishQuiet": true
+  }
+}
+=====================
+step10:add test in package.json inside scripts:{}
+"test":"cucumber-js test"
+
+step11:create feature file in Feature folder
+step12:ctrl+, open cucumber settings and verify paths
+
+cucumber.features": [
+    "src/test/features/*.feature",
+or
+"paths": [
+  "src/test/features/*.feature"
+]
+step13:run feature file in terminal
+npm run test
+
+npx cucumber-js
