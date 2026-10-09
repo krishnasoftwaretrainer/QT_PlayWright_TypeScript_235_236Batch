@@ -1,0 +1,244 @@
+       
+
+HP@KRISHNA-HP-LAPTOP UCRT64 ~
+$ cd D:
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d
+$ cd playgit
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit
+$ ls -a
+./  ../
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit
+$ git init
+Initialized empty Git repository in D:/playg
+it/.git/
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ ls -a
+./  ../  .git/
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add"
+ to track)
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be
+committed)
+        Sample.html
+
+nothing added to commit but untracked files present (u
+se "git add" to track)
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be
+committed)
+        Sample - Copy.html
+        Sample.html
+
+nothing added to commit but untracked files present (u
+se "git add" to track)
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be
+committed)
+        Sample - Copy.html
+        Sample.html
+
+nothing added to commit but untracked files present (u
+se "git add" to track)
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git add .
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sample - Copy.html
+        new file:   Sample.html
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sample - Copy.html
+        new file:   Sample.html
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be c
+ommitted)
+  (use "git restore <file>..." to discard changes in w
+orking directory)
+        deleted:    Sample - Copy.html
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sample - Copy.html
+        new file:   Sample.html
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be c
+ommitted)
+  (use "git restore <file>..." to discard changes in w
+orking directory)
+
+ deleted:    Sample - Copy.html
+        modified:   Sample.html
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sample - Copy.html
+        new file:   Sample.html
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be c
+ommitted)
+  (use "git restore <file>..." to discard changes in w
+orking directory)
+        deleted:    Sample - Copy.html
+        modified:   Sample.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be
+committed)
+        Sample1.html
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git add .
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sample.html
+        new file:   Sample1.html
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Sample.html
+        new file:   Sample1.html
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be c
+ommitted)
+  (use "git restore <file>..." to discard changes in w
+orking directory)
+        deleted:    Sample1.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be
+committed)
+        Sample2.html
+
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git commit -m "First File Sample"
+[master (root-commit) f03f220] First File Sample
+ 2 files changed, 3 insertions(+)
+ create mode 100644 Sample.html
+ create mode 100644 Sample1.html
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be c
+ommitted)
+  (use "git restore <file>..." to discard changes in w
+orking directory)
+        modified:   Sample.html
+        deleted:    Sample1.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be
+committed)
+        Sample2.html
+
+no changes added to commit (use "git add" and/or "git
+commit -a")
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be c
+ommitted)
+  (use "git restore <file>..." to discard changes in w
+orking directory)
+        modified:   Sample.html
+        deleted:    Sample1.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be
+committed)
+        Sample2.html
+
+no changes added to commit (use "git add" and/or "git
+commit -a")
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$ ^C
+
+HP@KRISHNA-HP-LAPTOP UCRT64 /d/playgit (master)
+$
