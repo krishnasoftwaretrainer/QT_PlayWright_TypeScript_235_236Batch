@@ -1,0 +1,109 @@
+API 
+Pending Topics 
+
+API Testing:
+-----------
+Manual:Postman
+Automation:Rest Assured / Playwright 
+
+Application Programming Interface Testing
+
+Client-Server Architecture:
+-------
+Clients giving the requests to Servers, Servers will process the client requests and giving responses to clients.
+
+CURD:Create/Store Update Retrieve/Select Delete 
+
+UI:
+API Methods:GET POST PUT PATCH DELETE
+
+Functional Regression[Automation]:Selenium, Playwright
+
+Manual:Postman Tool 
+API Regression[Automation]:Rest Assured/ Playwright 
+
+Request:Store given valid data into server[Database].
+
+Contacts:Store Retrieve Update Delete
+
+Status Codes:2xx Success 200 OK 201 Created
+4xx:Clents Side:Issues 
+5xx:Server
+
+Encryption and Decryption:
+
+http: 
+https: 
+
+Sample Servers:
+-----------
+URI/URL:BaseURL+EndPoints 
+https://www.browserstack.com/
+https://www.browserstack.com/pricing
+https://www.browserstack.com/live
+https://www.browserstack.com/test-management
+
+https://reqres.in/api/users/2
+
+Post Man Tool Interface
+
+Request Payload
+Response Payload
+
+Reqres.in is sample server:Users 
+Operations on this server.
+---------------
+1.Get specfic user data[GET]->200 OK.
+2.Get all users data[GET]->200 OK.
+3.Create new user[POST]->201 CREATED.
+4.Update user all data[PUT]->200 OK.
+5.Update user specfic data[PATCH]->200 OK.
+6.Delete specfic user[DELETE]->204 NOT FOUND[200.
+7.Delete all users[DELETE]->204 NOT FOUND[200]. 
+
+REST:JSON and SOAP:XML 
+
+{
+"Key":"Value"
+"Key":"Value"
+} 
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+	
+	https://api.restful-api.dev/objects/7
+	
+	Complete Response Data:
+{
+  "id": "10",
+  "name": "Apple iPad Mini 5th Gen",
+  "data": {
+    "Capacity": "64 GB",
+    "Screen size": 7.9
+  }
+}
+Object ID: 10
+Object Name: Apple iPad Mini 5th Gen
+Object Data: { Capacity: '64 GB', 'Screen size': 7.9 }
+Status Text: OK
+
+ff808181a09d98f701a133ffc9ef50e1
+ff808181a09d98f701a13406884b50ea
+
+{
+  "id": "ff808181a09d98f701a13406884b50ea",
+  "name": "Apple MacBook Pro 16",
+  "createdAt": 1791874205771,
+  "data": {
+    "year": 2026,
+    "price": 1999.99,
+    "CPU": "Intel Core i9",
+    "RAM": "16 GB"
+  }
+}
